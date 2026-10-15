@@ -15,7 +15,7 @@ const T: Record<Lang, Record<string, string>> = {
     copied: 'Link copied',
     meta: '50 s · 480p · MP4',
     hint: 'Best experienced with sound on.',
-    author: 'Developed by Jon Peciña Iturbe',
+    author: 'Developed by',
   },
   es: {
     tagline: 'Un brindis junto a la piscina',
@@ -26,7 +26,7 @@ const T: Record<Lang, Record<string, string>> = {
     copied: 'Enlace copiado',
     meta: '50 s · 480p · MP4',
     hint: 'Se disfruta mejor con sonido.',
-    author: 'Desarrollado por Jon Peciña Iturbe',
+    author: 'Desarrollado por',
   },
 };
 
@@ -64,7 +64,7 @@ app.innerHTML = `
         </div>
       </div>
     </section>
-    <footer><span id="author"></span> · <a href="mailto:jpecina@gmail.com">jpecina@gmail.com</a></footer>
+    <footer><span id="author"></span> <a href="mailto:jpecina@gmail.com">jpecina@gmail.com</a></footer>
   </main>
 `;
 
