@@ -37,13 +37,13 @@ const app = document.getElementById('app')!;
 app.innerHTML = `
   <div class="bg" aria-hidden="true"></div>
   <header class="top">
-    <span class="brand">Alfonso&nbsp;65</span>
+    <span class="brand">Alfonso&nbsp;66</span>
     <button id="langToggle" class="lang" aria-label="Cambiar idioma / Switch language">ES</button>
   </header>
   <main class="wrap">
     <section class="hero">
       <div class="player" id="player">
-        <video id="video" src="video/alfonso65.mp4" poster="poster.jpg"
+        <video id="video" src="video/alfonso66.mp4" poster="poster.jpg"
                preload="metadata" playsinline controls></video>
         <button id="bigPlay" class="big-play" aria-label="Play">
           <svg viewBox="0 0 64 64" width="72" height="72" aria-hidden="true">
@@ -53,12 +53,12 @@ app.innerHTML = `
         </button>
       </div>
       <div class="info">
-        <p class="kicker">Alfonso 65</p>
+        <p class="kicker">Alfonso 66</p>
         <h1 id="tagline"></h1>
         <p class="meta" id="meta"></p>
         <p class="hint" id="hint"></p>
         <div class="actions">
-          <a class="btn primary" id="btnDownload" href="video/alfonso65.mp4" download="Alfonso65.mp4"></a>
+          <a class="btn primary" id="btnDownload" href="video/alfonso66.mp4" download="Alfonso66.mp4"></a>
           <button class="btn" id="btnShare"></button>
           <button class="btn" id="btnFull"></button>
         </div>
@@ -105,7 +105,7 @@ video.addEventListener('pause', () => player.classList.remove('playing'));
   const url = location.href;
   try {
     if (navigator.share) {
-      await navigator.share({ title: 'Alfonso 65', url });
+      await navigator.share({ title: 'Alfonso 66', url });
       return;
     }
     throw new Error('no-share');

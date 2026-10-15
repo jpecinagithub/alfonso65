@@ -6,9 +6,9 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Alfonso 65',
-        short_name: 'Alfonso 65',
-        description: 'Presentación del vídeo Alfonso 65',
+        name: 'Alfonso 66',
+        short_name: 'Alfonso 66',
+        description: 'Presentación del vídeo Alfonso 66',
         start_url: '.',
         display: 'standalone',
         background_color: '#0b0e14',
