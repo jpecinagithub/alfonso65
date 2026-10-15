@@ -30,7 +30,7 @@ const T: Record<Lang, Record<string, string>> = {
   },
 };
 
-let lang: Lang = 'en';
+let lang: Lang = 'es';
 
 const app = document.getElementById('app')!;
 
